@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1D35C5255EE660000D0DF5 /* SwiftActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D35C4255EE660000D0DF5 /* SwiftActivityIndicator.swift */; };
+		DB2FB3B5251916B200C2B864 /* PersonalOverViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3B4251916B200C2B864 /* PersonalOverViewApp.swift */; };
+		DB2FB3B7251916B200C2B864 /* PersonalOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3B6251916B200C2B864 /* PersonalOverView.swift */; };
+		DB2FB3B9251916B300C2B864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2FB3B8251916B300C2B864 /* Assets.xcassets */; };
+		DB2FB3BC251916B300C2B864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2FB3BB251916B300C2B864 /* Preview Assets.xcassets */; };
+		DB2FB3C7251919BF00C2B864 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB2FB3C5251919BF00C2B864 /* InfoPlist.strings */; };
+		DB2FB3CA251919BF00C2B864 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB2FB3C8251919BF00C2B864 /* Localizable.strings */; };
+		DB2FB3CD25191E2400C2B864 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3CC25191E2400C2B864 /* User.swift */; };
+		DB2FB3D52519F04100C2B864 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3D42519F04100C2B864 /* SignInView.swift */; };
+		DB2FB3DB2519F4FC00C2B864 /* OutputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3DA2519F4FC00C2B864 /* OutputTextField.swift */; };
+		DB2FB3DE2519F60200C2B864 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3DD2519F60200C2B864 /* InputTextField.swift */; };
+		DB2FB3E12519F7F300C2B864 /* AlertID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3E02519F7F300C2B864 /* AlertID.swift */; };
+		DB2FB3E42519F83500C2B864 /* DismissingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3E32519F83500C2B864 /* DismissingKeyboard.swift */; };
+		DB2FB3E72519F87700C2B864 /* AdaptsToSoftwareKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3E62519F87700C2B864 /* AdaptsToSoftwareKeyboard.swift */; };
+		DB2FB3EA2519F90800C2B864 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FB3E92519F90800C2B864 /* SignUpView.swift */; };
+		DB36C2D6253CA2370032E137 /* SendSMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36C2D5253CA2370032E137 /* SendSMSView.swift */; };
+		DB3A6FD125627B7C0091AD64 /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FD025627B7C0091AD64 /* SettingStore.swift */; };
+		DB3A6FD425627BE80091AD64 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FD325627BE80091AD64 /* UserDefaults.swift */; };
+		DB3A6FD825627DB90091AD64 /* JsonOptionSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FD725627DB90091AD64 /* JsonOptionSetting.swift */; };
+		DB3A6FDB25627E4D0091AD64 /* EMailOptionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FDA25627E4D0091AD64 /* EMailOptionSettings.swift */; };
+		DB3A6FDE25627EA10091AD64 /* MessageOptionSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FDD25627EA10091AD64 /* MessageOptionSetting.swift */; };
+		DB3A6FE1256290D30091AD64 /* SwiftDeleteAllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FE0256290D30091AD64 /* SwiftDeleteAllUsers.swift */; };
+		DB3A6FE6256299B40091AD64 /* SwiftJsonUserBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FE5256299B40091AD64 /* SwiftJsonUserBackup.swift */; };
+		DB3A6FEA2562D7D70091AD64 /* SwiftReadCloudKitSaveCloudKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A6FE92562D7D70091AD64 /* SwiftReadCloudKitSaveCloudKitUser.swift */; };
+		DB3A6FED2562DDE50091AD64 /* UserBackup.json in Resources */ = {isa = PBXBuildFile; fileRef = DB3A6FEC2562DDE50091AD64 /* UserBackup.json */; };
+		DB4F7E4A251A4EF000DF3613 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4F7E49251A4EF000DF3613 /* CloudKit.framework */; };
+		DB4F7E4E251A509000DF3613 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F7E4D251A509000DF3613 /* PersistenceController.swift */; };
+		DB4F7E57251A587F00DF3613 /* UserRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F7E56251A587F00DF3613 /* UserRecord.swift */; };
+		DB4F7E5B251A5DE600DF3613 /* CloudKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F7E5A251A5DE600DF3613 /* CloudKitUser.swift */; };
+		DB634F322546DBB6002CB522 /* FirebaseData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB634F302546DBB6002CB522 /* FirebaseData.json */; };
+		DB634F372546DC3A002CB522 /* Firebase.json in Resources */ = {isa = PBXBuildFile; fileRef = DB634F362546DC3A002CB522 /* Firebase.json */; };
+		DB70AF9425861F72005CAF4B /* UserOverViewIndexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70AF9325861F72005CAF4B /* UserOverViewIndexed.swift */; };
+		DB70AF972586829E005CAF4B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70AF962586829E005CAF4B /* UserView.swift */; };
+		DB7134E3257D73B500E76B63 /* PersonDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7134E2257D73B500E76B63 /* PersonDeleteView.swift */; };
+		DB807C6F251CA9B600D0E839 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB807C6E251CA9B600D0E839 /* SettingsSheet.swift */; };
+		DB807C72251CA9E800D0E839 /* SheetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB807C71251CA9E800D0E839 /* SheetState.swift */; };
+		DB807C77251CB70400D0E839 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB807C76251CB70400D0E839 /* SettingView.swift */; };
+		DB807C7C251CBB3B00D0E839 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB807C7B251CBB3B00D0E839 /* ToDoView.swift */; };
+		DB807C86251CBFD000D0E839 /* PersonBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB807C85251CBFD000D0E839 /* PersonBirthdayView.swift */; };
+		DB807C89251CC0CD00D0E839 /* UserOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB807C88251CC0CD00D0E839 /* UserOverView.swift */; };
+		DB81263C251B37B400EA08F9 /* UserMaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81263B251B37B400EA08F9 /* UserMaintenanceView.swift */; };
+		DB8E5D4D2527754E00E389E9 /* Postnummerregister-ansi.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB8E5D4C2527754E00E389E9 /* Postnummerregister-ansi.txt */; };
+		DB90B3C72546DCF400F889B2 /* SwiftReadFireBaseSaveJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B3C62546DCF400F889B2 /* SwiftReadFireBaseSaveJson.swift */; };
+		DB961737251B985700734FA4 /* UserDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961736251B985700734FA4 /* UserDeleteView.swift */; };
+		DB9FC8102526580A00B1036C /* PostNummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC80F2526580A00B1036C /* PostNummer.swift */; };
+		DB9FC8132526586800B1036C /* CloudKitPostNummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC8122526586800B1036C /* CloudKitPostNummer.swift */; };
+		DBA5B723253EF1DD00CCB7E0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5B722253EF1DD00CCB7E0 /* MessageView.swift */; };
+		DBA5B726253EF27200CCB7E0 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5B725253EF27200CCB7E0 /* SendMessageView.swift */; };
+		DBA5B729253EFE6000CCB7E0 /* PersonSendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5B728253EFE6000CCB7E0 /* PersonSendMessageView.swift */; };
+		DBA6A56D25321E36009A4400 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A56C25321E36009A4400 /* MailView.swift */; };
+		DBA6A5712532236E009A4400 /* SendMailBirthDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A5702532236E009A4400 /* SendMailBirthDayView.swift */; };
+		DBA6A5742532239A009A4400 /* SendMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A5732532239A009A4400 /* SendMailView.swift */; };
+		DBC2B73B255C488000606C45 /* SwiftReadCloudKitSaveCloudKitPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC2B73A255C488000606C45 /* SwiftReadCloudKitSaveCloudKitPerson.swift */; };
+		DBC2B73E255D394400606C45 /* SwiftDeleteAllPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC2B73D255D394400606C45 /* SwiftDeleteAllPersons.swift */; };
+		DBCAACEC252BA98400CAA4C1 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACEB252BA98400CAA4C1 /* PersonView.swift */; };
+		DBCAACEF252BAA4F00CAA4C1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACEE252BAA4F00CAA4C1 /* Person.swift */; };
+		DBCAACF3252BAAB100CAA4C1 /* InputGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACF2252BAAB100CAA4C1 /* InputGender.swift */; };
+		DBCAACF6252BAB2F00CAA4C1 /* FindPostNummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACF5252BAB2F00CAA4C1 /* FindPostNummer.swift */; };
+		DBCAACF9252BAC2F00CAA4C1 /* PersonsOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACF8252BAC2F00CAA4C1 /* PersonsOverView.swift */; };
+		DBCAACFC252BAD7200CAA4C1 /* MonthDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACFB252BAD7200CAA4C1 /* MonthDay.swift */; };
+		DBCAAD00252BADB100CAA4C1 /* PersonNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAACFF252BADB100CAA4C1 /* PersonNewView.swift */; };
+		DBCAAD03252BADFA00CAA4C1 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAAD02252BADFA00CAA4C1 /* SearchBar.swift */; };
+		DBCAAD09252BAEE600CAA4C1 /* CloudKitPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAAD08252BAEE600CAA4C1 /* CloudKitPerson.swift */; };
+		DBCAAD0C252BAFB600CAA4C1 /* PersonRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAAD0B252BAFB600CAA4C1 /* PersonRecord.swift */; };
+		DBCAAD0F252BB09300CAA4C1 /* PersonMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAAD0E252BB09300CAA4C1 /* PersonMapView.swift */; };
+		DBCAAD12252BB1DE00CAA4C1 /* PersonSendSMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAAD11252BB1DE00CAA4C1 /* PersonSendSMS.swift */; };
+		DBCB79E42535C6CB009D238B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCB79E32535C6CB009D238B /* MapKit.framework */; };
+		DBCDBA9B2560503D005A7CA1 /* UserDetailOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDBA9A2560503D005A7CA1 /* UserDetailOverView.swift */; };
+		DBD3641D2525AF790036A714 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3641C2525AF790036A714 /* ImagePicker.swift */; };
+		DBD364202525AFB70036A714 /* ResizedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3641F2525AFB70036A714 /* ResizedImage.swift */; };
+		DBDDD7DD25822EC9002FDF98 /* PersonFindPostalCodesViewIndexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDDD7DC25822EC9002FDF98 /* PersonFindPostalCodesViewIndexed.swift */; };
+		DBDDD7E125826829002FDF98 /* IndexedTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDDD7E025826829002FDF98 /* IndexedTableViewHelper.swift */; };
+		DBEA3D27254EB80200FA14C8 /* PersonalBackup.json in Resources */ = {isa = PBXBuildFile; fileRef = DBEA3D26254EB80200FA14C8 /* PersonalBackup.json */; };
+		DBEA3D2A254EB89400FA14C8 /* SwiftJsonPersonBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA3D29254EB89400FA14C8 /* SwiftJsonPersonBackup.swift */; };
+		DBF6ECC2257A1CA40013DA46 /* PersonsOverViewIndexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6ECC1257A1CA40013DA46 /* PersonsOverViewIndexed.swift */; };
+		DBFC96F725333DC800E9803E /* PersonSendEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC96F625333DC800E9803E /* PersonSendEmailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1D35C4255EE660000D0DF5 /* SwiftActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActivityIndicator.swift; sourceTree = "<group>"; };
+		DB2FB3B1251916B200C2B864 /* PersonalOverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalOverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2FB3B4251916B200C2B864 /* PersonalOverViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalOverViewApp.swift; sourceTree = "<group>"; };
+		DB2FB3B6251916B200C2B864 /* PersonalOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalOverView.swift; sourceTree = "<group>"; };
+		DB2FB3B8251916B300C2B864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2FB3BB251916B300C2B864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB2FB3BD251916B300C2B864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2FB3C6251919BF00C2B864 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB2FB3C9251919BF00C2B864 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB2FB3CC25191E2400C2B864 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB2FB3D42519F04100C2B864 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		DB2FB3DA2519F4FC00C2B864 /* OutputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTextField.swift; sourceTree = "<group>"; };
+		DB2FB3DD2519F60200C2B864 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		DB2FB3E02519F7F300C2B864 /* AlertID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertID.swift; sourceTree = "<group>"; };
+		DB2FB3E32519F83500C2B864 /* DismissingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissingKeyboard.swift; sourceTree = "<group>"; };
+		DB2FB3E62519F87700C2B864 /* AdaptsToSoftwareKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptsToSoftwareKeyboard.swift; sourceTree = "<group>"; };
+		DB2FB3E92519F90800C2B864 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DB36C2D5253CA2370032E137 /* SendSMSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSMSView.swift; sourceTree = "<group>"; };
+		DB3A6FD025627B7C0091AD64 /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
+		DB3A6FD325627BE80091AD64 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		DB3A6FD725627DB90091AD64 /* JsonOptionSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonOptionSetting.swift; sourceTree = "<group>"; };
+		DB3A6FDA25627E4D0091AD64 /* EMailOptionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMailOptionSettings.swift; sourceTree = "<group>"; };
+		DB3A6FDD25627EA10091AD64 /* MessageOptionSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOptionSetting.swift; sourceTree = "<group>"; };
+		DB3A6FE0256290D30091AD64 /* SwiftDeleteAllUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDeleteAllUsers.swift; sourceTree = "<group>"; };
+		DB3A6FE5256299B40091AD64 /* SwiftJsonUserBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonUserBackup.swift; sourceTree = "<group>"; };
+		DB3A6FE92562D7D70091AD64 /* SwiftReadCloudKitSaveCloudKitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReadCloudKitSaveCloudKitUser.swift; sourceTree = "<group>"; };
+		DB3A6FEC2562DDE50091AD64 /* UserBackup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserBackup.json; sourceTree = "<group>"; };
+		DB4F7E47251A4ED200DF3613 /* PersonalOverView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalOverView.entitlements; sourceTree = "<group>"; };
+		DB4F7E49251A4EF000DF3613 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		DB4F7E4D251A509000DF3613 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		DB4F7E56251A587F00DF3613 /* UserRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecord.swift; sourceTree = "<group>"; };
+		DB4F7E5A251A5DE600DF3613 /* CloudKitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUser.swift; sourceTree = "<group>"; };
+		DB634F302546DBB6002CB522 /* FirebaseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirebaseData.json; sourceTree = "<group>"; };
+		DB634F362546DC3A002CB522 /* Firebase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Firebase.json; sourceTree = "<group>"; };
+		DB70AF9325861F72005CAF4B /* UserOverViewIndexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOverViewIndexed.swift; sourceTree = "<group>"; };
+		DB70AF962586829E005CAF4B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		DB7134E2257D73B500E76B63 /* PersonDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDeleteView.swift; sourceTree = "<group>"; };
+		DB807C6E251CA9B600D0E839 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		DB807C71251CA9E800D0E839 /* SheetState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetState.swift; sourceTree = "<group>"; };
+		DB807C76251CB70400D0E839 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		DB807C7B251CBB3B00D0E839 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		DB807C85251CBFD000D0E839 /* PersonBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonBirthdayView.swift; sourceTree = "<group>"; };
+		DB807C88251CC0CD00D0E839 /* UserOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOverView.swift; sourceTree = "<group>"; };
+		DB81263B251B37B400EA08F9 /* UserMaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMaintenanceView.swift; sourceTree = "<group>"; };
+		DB8E5D4C2527754E00E389E9 /* Postnummerregister-ansi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Postnummerregister-ansi.txt"; sourceTree = "<group>"; };
+		DB90B3C62546DCF400F889B2 /* SwiftReadFireBaseSaveJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReadFireBaseSaveJson.swift; sourceTree = "<group>"; };
+		DB961736251B985700734FA4 /* UserDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDeleteView.swift; sourceTree = "<group>"; };
+		DB9FC80F2526580A00B1036C /* PostNummer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNummer.swift; sourceTree = "<group>"; };
+		DB9FC8122526586800B1036C /* CloudKitPostNummer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPostNummer.swift; sourceTree = "<group>"; };
+		DBA5B722253EF1DD00CCB7E0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		DBA5B725253EF27200CCB7E0 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		DBA5B728253EFE6000CCB7E0 /* PersonSendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSendMessageView.swift; sourceTree = "<group>"; };
+		DBA6A56C25321E36009A4400 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		DBA6A5702532236E009A4400 /* SendMailBirthDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailBirthDayView.swift; sourceTree = "<group>"; };
+		DBA6A5732532239A009A4400 /* SendMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailView.swift; sourceTree = "<group>"; };
+		DBC2B73A255C488000606C45 /* SwiftReadCloudKitSaveCloudKitPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReadCloudKitSaveCloudKitPerson.swift; sourceTree = "<group>"; };
+		DBC2B73D255D394400606C45 /* SwiftDeleteAllPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDeleteAllPersons.swift; sourceTree = "<group>"; };
+		DBCAACEB252BA98400CAA4C1 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		DBCAACEE252BAA4F00CAA4C1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DBCAACF2252BAAB100CAA4C1 /* InputGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputGender.swift; sourceTree = "<group>"; };
+		DBCAACF5252BAB2F00CAA4C1 /* FindPostNummer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPostNummer.swift; sourceTree = "<group>"; };
+		DBCAACF8252BAC2F00CAA4C1 /* PersonsOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsOverView.swift; sourceTree = "<group>"; };
+		DBCAACFB252BAD7200CAA4C1 /* MonthDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDay.swift; sourceTree = "<group>"; };
+		DBCAACFF252BADB100CAA4C1 /* PersonNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonNewView.swift; sourceTree = "<group>"; };
+		DBCAAD02252BADFA00CAA4C1 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DBCAAD08252BAEE600CAA4C1 /* CloudKitPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPerson.swift; sourceTree = "<group>"; };
+		DBCAAD0B252BAFB600CAA4C1 /* PersonRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRecord.swift; sourceTree = "<group>"; };
+		DBCAAD0E252BB09300CAA4C1 /* PersonMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMapView.swift; sourceTree = "<group>"; };
+		DBCAAD11252BB1DE00CAA4C1 /* PersonSendSMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSendSMS.swift; sourceTree = "<group>"; };
+		DBCB79E32535C6CB009D238B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DBCDBA9A2560503D005A7CA1 /* UserDetailOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailOverView.swift; sourceTree = "<group>"; };
+		DBD3641C2525AF790036A714 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DBD3641F2525AFB70036A714 /* ResizedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizedImage.swift; sourceTree = "<group>"; };
+		DBDDD7DC25822EC9002FDF98 /* PersonFindPostalCodesViewIndexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFindPostalCodesViewIndexed.swift; sourceTree = "<group>"; };
+		DBDDD7E025826829002FDF98 /* IndexedTableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedTableViewHelper.swift; sourceTree = "<group>"; };
+		DBEA3D26254EB80200FA14C8 /* PersonalBackup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonalBackup.json; sourceTree = "<group>"; };
+		DBEA3D29254EB89400FA14C8 /* SwiftJsonPersonBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonPersonBackup.swift; sourceTree = "<group>"; };
+		DBF6ECC1257A1CA40013DA46 /* PersonsOverViewIndexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsOverViewIndexed.swift; sourceTree = "<group>"; };
+		DBFC96F625333DC800E9803E /* PersonSendEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSendEmailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2FB3AE251916B200C2B864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCB79E42535C6CB009D238B /* MapKit.framework in Frameworks */,
+				DB4F7E4A251A4EF000DF3613 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2FB3A8251916B200C2B864 = {
+			isa = PBXGroup;
+			children = (
+				DB2FB3B3251916B200C2B864 /* PersonalOverView */,
+				DB2FB3B2251916B200C2B864 /* Products */,
+				DB4F7E48251A4EF000DF3613 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2FB3B2251916B200C2B864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FB3B1251916B200C2B864 /* PersonalOverView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2FB3B3251916B200C2B864 /* PersonalOverView */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FB3B8251916B300C2B864 /* Assets.xcassets */,
+				DB4F7E51251A50C700DF3613 /* CloudKit */,
+				DB2FB3BD251916B300C2B864 /* Info.plist */,
+				DB2FB3C5251919BF00C2B864 /* InfoPlist.strings */,
+				DB634F2E2546DAE8002CB522 /* Json */,
+				DB2FB3C8251919BF00C2B864 /* Localizable.strings */,
+				DBA6A56F2532231C009A4400 /* Mail */,
+				DB36C2DE253CB78C0032E137 /* Message */,
+				DB2FB3D22519EFEE00C2B864 /* Model */,
+				DB807C7F251CBE2100D0E839 /* Person */,
+				DB4F7E47251A4ED200DF3613 /* PersonalOverView.entitlements */,
+				DB2FB3B4251916B200C2B864 /* PersonalOverViewApp.swift */,
+				DB8E5D4B2527749900E389E9 /* PostalNummer */,
+				DB2FB3BA251916B300C2B864 /* Preview Content */,
+				DB807C75251CB6E400D0E839 /* Settings */,
+				DB36C2D9253CB1150032E137 /* Sheet */,
+				DB807C7A251CBAFF00D0E839 /* ToDo */,
+				DB2FB3D32519F01A00C2B864 /* User */,
+				DB2FB3D92519F48B00C2B864 /* Utilities */,
+			);
+			path = PersonalOverView;
+			sourceTree = "<group>";
+		};
+		DB2FB3BA251916B300C2B864 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FB3BB251916B300C2B864 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB2FB3D22519EFEE00C2B864 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAACEE252BAA4F00CAA4C1 /* Person.swift */,
+				DB9FC80F2526580A00B1036C /* PostNummer.swift */,
+				DBCAAD0B252BAFB600CAA4C1 /* PersonRecord.swift */,
+				DB2FB3CC25191E2400C2B864 /* User.swift */,
+				DB4F7E56251A587F00DF3613 /* UserRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB2FB3D32519F01A00C2B864 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FB3D42519F04100C2B864 /* SignInView.swift */,
+				DB2FB3E92519F90800C2B864 /* SignUpView.swift */,
+				DB961736251B985700734FA4 /* UserDeleteView.swift */,
+				DB3A6FE0256290D30091AD64 /* SwiftDeleteAllUsers.swift */,
+				DBCDBA9A2560503D005A7CA1 /* UserDetailOverView.swift */,
+				DB81263B251B37B400EA08F9 /* UserMaintenanceView.swift */,
+				DB807C88251CC0CD00D0E839 /* UserOverView.swift */,
+				DB70AF9325861F72005CAF4B /* UserOverViewIndexed.swift */,
+				DB70AF962586829E005CAF4B /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		DB2FB3D92519F48B00C2B864 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FB3E62519F87700C2B864 /* AdaptsToSoftwareKeyboard.swift */,
+				DB2FB3E02519F7F300C2B864 /* AlertID.swift */,
+				DB2FB3E32519F83500C2B864 /* DismissingKeyboard.swift */,
+				DBD3641C2525AF790036A714 /* ImagePicker.swift */,
+				DBCAACF2252BAAB100CAA4C1 /* InputGender.swift */,
+				DB2FB3DD2519F60200C2B864 /* InputTextField.swift */,
+				DBCAACFB252BAD7200CAA4C1 /* MonthDay.swift */,
+				DB2FB3DA2519F4FC00C2B864 /* OutputTextField.swift */,
+				DB4F7E4D251A509000DF3613 /* PersistenceController.swift */,
+				DBD3641F2525AFB70036A714 /* ResizedImage.swift */,
+				DBCAAD02252BADFA00CAA4C1 /* SearchBar.swift */,
+				DB1D35C4255EE660000D0DF5 /* SwiftActivityIndicator.swift */,
+				DBDDD7E025826829002FDF98 /* IndexedTableViewHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DB36C2D9253CB1150032E137 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				DB807C6E251CA9B600D0E839 /* SettingsSheet.swift */,
+				DB807C71251CA9E800D0E839 /* SheetState.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		DB36C2DE253CB78C0032E137 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DB36C2D5253CA2370032E137 /* SendSMSView.swift */,
+				DBA5B722253EF1DD00CCB7E0 /* MessageView.swift */,
+				DBA5B725253EF27200CCB7E0 /* SendMessageView.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		DB3A6FD625627D440091AD64 /* OptionSetting */ = {
+			isa = PBXGroup;
+			children = (
+				DB3A6FDA25627E4D0091AD64 /* EMailOptionSettings.swift */,
+				DB3A6FD725627DB90091AD64 /* JsonOptionSetting.swift */,
+				DB3A6FDD25627EA10091AD64 /* MessageOptionSetting.swift */,
+			);
+			path = OptionSetting;
+			sourceTree = "<group>";
+		};
+		DB4F7E48251A4EF000DF3613 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB79E32535C6CB009D238B /* MapKit.framework */,
+				DB4F7E49251A4EF000DF3613 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4F7E51251A50C700DF3613 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAAD08252BAEE600CAA4C1 /* CloudKitPerson.swift */,
+				DB9FC8122526586800B1036C /* CloudKitPostNummer.swift */,
+				DB4F7E5A251A5DE600DF3613 /* CloudKitUser.swift */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
+		DB634F2E2546DAE8002CB522 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				DB634F362546DC3A002CB522 /* Firebase.json */,
+				DB634F302546DBB6002CB522 /* FirebaseData.json */,
+				DBEA3D26254EB80200FA14C8 /* PersonalBackup.json */,
+				DBEA3D29254EB89400FA14C8 /* SwiftJsonPersonBackup.swift */,
+				DB3A6FE5256299B40091AD64 /* SwiftJsonUserBackup.swift */,
+				DBC2B73A255C488000606C45 /* SwiftReadCloudKitSaveCloudKitPerson.swift */,
+				DB3A6FE92562D7D70091AD64 /* SwiftReadCloudKitSaveCloudKitUser.swift */,
+				DB90B3C62546DCF400F889B2 /* SwiftReadFireBaseSaveJson.swift */,
+				DB3A6FEC2562DDE50091AD64 /* UserBackup.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		DB807C75251CB6E400D0E839 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DB3A6FD625627D440091AD64 /* OptionSetting */,
+				DB3A6FD025627B7C0091AD64 /* SettingStore.swift */,
+				DB807C76251CB70400D0E839 /* SettingView.swift */,
+				DB3A6FD325627BE80091AD64 /* UserDefaults.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DB807C7A251CBAFF00D0E839 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				DB807C7B251CBB3B00D0E839 /* ToDoView.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		DB807C7F251CBE2100D0E839 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				DB807C85251CBFD000D0E839 /* PersonBirthdayView.swift */,
+				DB7134E2257D73B500E76B63 /* PersonDeleteView.swift */,
+				DB2FB3B6251916B200C2B864 /* PersonalOverView.swift */,
+				DBDDD7DC25822EC9002FDF98 /* PersonFindPostalCodesViewIndexed.swift */,
+				DBCAAD0E252BB09300CAA4C1 /* PersonMapView.swift */,
+				DBCAACFF252BADB100CAA4C1 /* PersonNewView.swift */,
+				DBCAACF8252BAC2F00CAA4C1 /* PersonsOverView.swift */,
+				DBF6ECC1257A1CA40013DA46 /* PersonsOverViewIndexed.swift */,
+				DBFC96F625333DC800E9803E /* PersonSendEmailView.swift */,
+				DBCAAD11252BB1DE00CAA4C1 /* PersonSendSMS.swift */,
+				DBCAACEB252BA98400CAA4C1 /* PersonView.swift */,
+				DBA5B728253EFE6000CCB7E0 /* PersonSendMessageView.swift */,
+				DBC2B73D255D394400606C45 /* SwiftDeleteAllPersons.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		DB8E5D4B2527749900E389E9 /* PostalNummer */ = {
+			isa = PBXGroup;
+			children = (
+				DBCAACF5252BAB2F00CAA4C1 /* FindPostNummer.swift */,
+				DB8E5D4C2527754E00E389E9 /* Postnummerregister-ansi.txt */,
+			);
+			path = PostalNummer;
+			sourceTree = "<group>";
+		};
+		DBA6A56F2532231C009A4400 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6A56C25321E36009A4400 /* MailView.swift */,
+				DBA6A5702532236E009A4400 /* SendMailBirthDayView.swift */,
+				DBA6A5732532239A009A4400 /* SendMailView.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2FB3B0251916B200C2B864 /* PersonalOverView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2FB3C0251916B300C2B864 /* Build configuration list for PBXNativeTarget "PersonalOverView" */;
+			buildPhases = (
+				DB2FB3AD251916B200C2B864 /* Sources */,
+				DB2FB3AE251916B200C2B864 /* Frameworks */,
+				DB2FB3AF251916B200C2B864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalOverView;
+			productName = PersonalOverView;
+			productReference = DB2FB3B1251916B200C2B864 /* PersonalOverView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2FB3A9251916B200C2B864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DB2FB3B0251916B200C2B864 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = DB2FB3AC251916B200C2B864 /* Build configuration list for PBXProject "PersonalOverView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				nb,
+			);
+			mainGroup = DB2FB3A8251916B200C2B864;
+			productRefGroup = DB2FB3B2251916B200C2B864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2FB3B0251916B200C2B864 /* PersonalOverView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2FB3AF251916B200C2B864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3A6FED2562DDE50091AD64 /* UserBackup.json in Resources */,
+				DB2FB3BC251916B300C2B864 /* Preview Assets.xcassets in Resources */,
+				DB634F372546DC3A002CB522 /* Firebase.json in Resources */,
+				DB2FB3CA251919BF00C2B864 /* Localizable.strings in Resources */,
+				DB2FB3C7251919BF00C2B864 /* InfoPlist.strings in Resources */,
+				DBEA3D27254EB80200FA14C8 /* PersonalBackup.json in Resources */,
+				DB2FB3B9251916B300C2B864 /* Assets.xcassets in Resources */,
+				DB8E5D4D2527754E00E389E9 /* Postnummerregister-ansi.txt in Resources */,
+				DB634F322546DBB6002CB522 /* FirebaseData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2FB3AD251916B200C2B864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCAAD03252BADFA00CAA4C1 /* SearchBar.swift in Sources */,
+				DB90B3C72546DCF400F889B2 /* SwiftReadFireBaseSaveJson.swift in Sources */,
+				DBCAACFC252BAD7200CAA4C1 /* MonthDay.swift in Sources */,
+				DB3A6FD125627B7C0091AD64 /* SettingStore.swift in Sources */,
+				DBDDD7DD25822EC9002FDF98 /* PersonFindPostalCodesViewIndexed.swift in Sources */,
+				DBA5B726253EF27200CCB7E0 /* SendMessageView.swift in Sources */,
+				DBCAAD09252BAEE600CAA4C1 /* CloudKitPerson.swift in Sources */,
+				DB7134E3257D73B500E76B63 /* PersonDeleteView.swift in Sources */,
+				DB36C2D6253CA2370032E137 /* SendSMSView.swift in Sources */,
+				DB2FB3B7251916B200C2B864 /* PersonalOverView.swift in Sources */,
+				DB2FB3B5251916B200C2B864 /* PersonalOverViewApp.swift in Sources */,
+				DBA6A5712532236E009A4400 /* SendMailBirthDayView.swift in Sources */,
+				DB4F7E4E251A509000DF3613 /* PersistenceController.swift in Sources */,
+				DB2FB3E42519F83500C2B864 /* DismissingKeyboard.swift in Sources */,
+				DB2FB3CD25191E2400C2B864 /* User.swift in Sources */,
+				DBA5B729253EFE6000CCB7E0 /* PersonSendMessageView.swift in Sources */,
+				DB2FB3EA2519F90800C2B864 /* SignUpView.swift in Sources */,
+				DB2FB3DB2519F4FC00C2B864 /* OutputTextField.swift in Sources */,
+				DB807C86251CBFD000D0E839 /* PersonBirthdayView.swift in Sources */,
+				DBCAACEF252BAA4F00CAA4C1 /* Person.swift in Sources */,
+				DB3A6FEA2562D7D70091AD64 /* SwiftReadCloudKitSaveCloudKitUser.swift in Sources */,
+				DB2FB3E12519F7F300C2B864 /* AlertID.swift in Sources */,
+				DB4F7E5B251A5DE600DF3613 /* CloudKitUser.swift in Sources */,
+				DB9FC8102526580A00B1036C /* PostNummer.swift in Sources */,
+				DB3A6FDB25627E4D0091AD64 /* EMailOptionSettings.swift in Sources */,
+				DB807C77251CB70400D0E839 /* SettingView.swift in Sources */,
+				DBDDD7E125826829002FDF98 /* IndexedTableViewHelper.swift in Sources */,
+				DBCAAD12252BB1DE00CAA4C1 /* PersonSendSMS.swift in Sources */,
+				DBA6A56D25321E36009A4400 /* MailView.swift in Sources */,
+				DBC2B73B255C488000606C45 /* SwiftReadCloudKitSaveCloudKitPerson.swift in Sources */,
+				DB3A6FE6256299B40091AD64 /* SwiftJsonUserBackup.swift in Sources */,
+				DBCAAD0F252BB09300CAA4C1 /* PersonMapView.swift in Sources */,
+				DBCAACEC252BA98400CAA4C1 /* PersonView.swift in Sources */,
+				DBCAAD00252BADB100CAA4C1 /* PersonNewView.swift in Sources */,
+				DBC2B73E255D394400606C45 /* SwiftDeleteAllPersons.swift in Sources */,
+				DBCAACF3252BAAB100CAA4C1 /* InputGender.swift in Sources */,
+				DB81263C251B37B400EA08F9 /* UserMaintenanceView.swift in Sources */,
+				DBF6ECC2257A1CA40013DA46 /* PersonsOverViewIndexed.swift in Sources */,
+				DBCAACF9252BAC2F00CAA4C1 /* PersonsOverView.swift in Sources */,
+				DBFC96F725333DC800E9803E /* PersonSendEmailView.swift in Sources */,
+				DBCAACF6252BAB2F00CAA4C1 /* FindPostNummer.swift in Sources */,
+				DB2FB3E72519F87700C2B864 /* AdaptsToSoftwareKeyboard.swift in Sources */,
+				DB807C6F251CA9B600D0E839 /* SettingsSheet.swift in Sources */,
+				DBD364202525AFB70036A714 /* ResizedImage.swift in Sources */,
+				DBA6A5742532239A009A4400 /* SendMailView.swift in Sources */,
+				DB807C7C251CBB3B00D0E839 /* ToDoView.swift in Sources */,
+				DB807C72251CA9E800D0E839 /* SheetState.swift in Sources */,
+				DBCDBA9B2560503D005A7CA1 /* UserDetailOverView.swift in Sources */,
+				DB70AF9425861F72005CAF4B /* UserOverViewIndexed.swift in Sources */,
+				DBEA3D2A254EB89400FA14C8 /* SwiftJsonPersonBackup.swift in Sources */,
+				DB961737251B985700734FA4 /* UserDeleteView.swift in Sources */,
+				DB4F7E57251A587F00DF3613 /* UserRecord.swift in Sources */,
+				DB3A6FDE25627EA10091AD64 /* MessageOptionSetting.swift in Sources */,
+				DB3A6FD825627DB90091AD64 /* JsonOptionSetting.swift in Sources */,
+				DB70AF972586829E005CAF4B /* UserView.swift in Sources */,
+				DB9FC8132526586800B1036C /* CloudKitPostNummer.swift in Sources */,
+				DBA5B723253EF1DD00CCB7E0 /* MessageView.swift in Sources */,
+				DBCAAD0C252BAFB600CAA4C1 /* PersonRecord.swift in Sources */,
+				DB3A6FE1256290D30091AD64 /* SwiftDeleteAllUsers.swift in Sources */,
+				DB2FB3DE2519F60200C2B864 /* InputTextField.swift in Sources */,
+				DBD3641D2525AF790036A714 /* ImagePicker.swift in Sources */,
+				DB3A6FD425627BE80091AD64 /* UserDefaults.swift in Sources */,
+				DB807C89251CC0CD00D0E839 /* UserOverView.swift in Sources */,
+				DB1D35C5255EE660000D0DF5 /* SwiftActivityIndicator.swift in Sources */,
+				DB2FB3D52519F04100C2B864 /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB2FB3C5251919BF00C2B864 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2FB3C6251919BF00C2B864 /* nb */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB2FB3C8251919BF00C2B864 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2FB3C9251919BF00C2B864 /* nb */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2FB3BE251916B300C2B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB2FB3BF251916B300C2B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2FB3C1251916B300C2B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PersonalOverView/PersonalOverView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalOverView/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UR9TA6744;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PersonalOverView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhovland.PersonalOverView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2FB3C2251916B300C2B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PersonalOverView/PersonalOverView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalOverView/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UR9TA6744;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PersonalOverView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhovland.PersonalOverView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2FB3AC251916B200C2B864 /* Build configuration list for PBXProject "PersonalOverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2FB3BE251916B300C2B864 /* Debug */,
+				DB2FB3BF251916B300C2B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2FB3C0251916B300C2B864 /* Build configuration list for PBXNativeTarget "PersonalOverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2FB3C1251916B300C2B864 /* Debug */,
+				DB2FB3C2251916B300C2B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2FB3A9251916B200C2B864 /* Project object */;
+}

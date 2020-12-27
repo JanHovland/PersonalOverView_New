@@ -1,0 +1,700 @@
+/* JsonPersonOptionSetting
+   savePersonsCloudKit */
+" to be able to update the Person table in CloudKit." = " for å kunne oppdatere Person tabellen i CloudKit.";
+
+/* JsonUserOptionSetting */
+" to be able to update the User table in CloudKit." = " for å kunne oppdatere User tabellen i CloudKit.";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"1 CloudKit save Persons" = "CloudKit oppdatere personer?";
+
+/* SwiftReadCloudKitSaveCloudKitUser */
+"1 CloudKit save Users" = "CloudKit oppdatere brukere?";
+
+/* SwiftDeleteAllPersons */
+"1 Delete all persons" = "Slette alle personene?";
+
+/* SwiftDeleteAllPersons */
+"2 Delete all persons" = "Slette alle personene";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"2 Save Persons" = "Oppdatere personer fra Json";
+
+/* SwiftReadCloudKitSaveCloudKitUser */
+"2 Save Users" = "Oppdatere brukerne fra Json";
+
+/* SignInView */
+"Account overview" = "Brukere";
+
+/* No comment provided by engineer. */
+"Add" = "Ny person";
+
+/* SignUpView */
+"Add a new User" = "Ny bruker";
+
+/* No comment provided by engineer. */
+"Add user" = "Lagre";
+
+/* SignUpView */
+"Added new user:" = "Har nå lagret en ny bruker:";
+
+/* PersonDeleteView
+   PersonNewView
+   PersonView */
+"Address" = "Adresse";
+
+/* SwiftDeleteAllPersons */
+"All persons are deleted." = "Alle personene er slettet.";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"All persons are saved." = "Alle personene er nå oppdatert.";
+
+/* importPersonDataFromFireBaseJson */
+"All persons saved from Firebase Json file" = "Alle personene er nå lagret i CloudKit fra Firebase sin Json fil";
+
+/* SwiftDeleteAllPersons */
+"All users are deleted 1." = "Alle brukerne er slettet.";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"All users are saved." = "Alle brukerne er nå oppdatert.";
+
+/* SwiftDeleteAllPersons */
+"Are you sure you want to delete all persons?" = "Sletter du alle personene, vil de ikke lenger være tilgjengelige.";
+
+/* PersonDeleteView
+   PersonsOverView */
+"Are you sure you want to delete this person?" = "Sletter du denne personen, vil den ikke lenger være tilgjengelig.";
+
+/* UserDeleteView */
+"Are you sure you want to delete this user?" = "Er du sikker på at du vil slette denne brukeren?";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"Are you sure you want to save all persons from a Json file?" = "Oppdaterer du personene fra Json filen, vil alle personene igjen være tilgjengelige.";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"Are you sure you want to save all users from a Json file?" = "Oppdaterer du brukerne på nytt fra Json, vil de igjen være tilgjengelige.";
+
+/* PersonBirthdayView */
+"Birthday" = "Fødselsdager";
+
+/* PersonSendEmailView */
+"Birthday greetings" = "Fødselsdag hilsen";
+
+/* SignInView */
+"Both email and Password must have a value" = "Både e-post og passord må ha en verdi.";
+
+/* PersonSendEmailView
+   SendMailView */
+"Can't send emails from this device" = "Kan ikke sende e-post fra denne enheten.";
+
+/* NewPersonView
+   PersonSendMessageView */
+"Can't send messages from this device" = "Kan ikke sende meldinger fra denne enheten";
+
+/* PersonDeleteView
+   PersonsOverView
+   SearchBar
+   SwiftReadCloudKitSaveCloudKitUser
+   UserMaintenanceView
+   UserView */
+"Cancel" = "Avbryt";
+
+/* SignUpView
+   UserMaintenanceView
+   UserView */
+"Choose Profile Image" = "Velg profilbilde";
+
+/* SettingView */
+"Choose to show or hide the password" = "Velg å vise eller skjule passordet.";
+
+/* PersonDeleteView
+   PersonNewView
+   PersonView */
+"City" = "    By";
+
+/* SettingView */
+"CloudKit delete all Persons" = "CloudKit slette alle personene";
+
+/* SwiftDeleteAllPersons */
+"CloudKit Delete all Persons" = "CloudKit slette alle personene";
+
+/* SettingView */
+"CloudKit delete all Users" = "CloudKit slette alle brukerne";
+
+/* SettingView
+   SwiftReadCloudKitSaveCloudKit */
+"CloudKit save Persons" = "CloudKit oppdatere personer";
+
+/* JsonPersonOptionSetting
+   SettingView
+   SwiftDeleteAllPersons
+   SwiftDeleteAlSwiftReadCloudKitSaveCloudKitPersonlPersons */
+"CloudKit save Persons option" = "CloudKit personer alternativ";
+
+/* JsonPersonOptionSetting */
+"CLOUDKIT SAVE PERSONS OPTION" = "CLOUDKIT PERSONER ALTERNATIV";
+
+/* JsonUserOptionSetting
+   SettingView
+   SwiftDeleteAllUsers */
+"CloudKit save User option" = "CloudKit brukere alternativ";
+
+/* JsonUserOptionSetting */
+"CLOUDKIT SAVE USER OPTION" = "CLOUDKIT BRUKERE ALTERNATIV";
+
+/* SettingView
+   SwiftReadCloudKitSaveCloudKitUser */
+"CloudKit save Users" = "CloudKit oppdatere brukere";
+
+/* SwiftDeleteAlSwiftReadCloudKitSaveCloudKitPersonlPersons */
+"CloudKit save Users option" = "CloudKit lagre brukere alternativ";
+
+/* PersonSendEmailView
+   PersonSendMessageView */
+"Congratulation so much on your birthday, " = "Gratulerer så mye med fødselsdagen din, ";
+
+/* SignInView */
+"Couldn't get an authentication token" = "Kunne ikke få et godkjenningstoken.\"";
+
+/* SignInView */
+"Create a new account?" = "Opprette ny bruker?";
+
+/* PersonNewView
+   PersonView */
+"Date of birth" = "Fødselsdato";
+
+/* PersonDeleteView
+   SwiftDeleteAllPersons
+   SwiftDeleteAllUsers
+   UserDeleteView */
+"Delete" = "Slett";
+
+/* PersonDeleteView
+   UserDeleteView */
+"Delete #1" = "Slette: ";
+
+/* SwiftDeleteAllUsers */
+"Delete all Users" = "CloudKit slette alle brukerne";
+
+/* SwiftDeleteAllPersons */
+"Delete all users 1" = "Slette alle brukerne?";
+
+/* SwiftDeleteAllPersons */
+"Delete all users 2" = "Slette alle brukerne";
+
+/* UserDeleteView */
+"Delete an user 4" = "Slett denne brukeren?";
+
+/* PersonDeleteView
+   PersonsOverView */
+"Delete person" = "Slett person";
+
+/* PersonDeleteView */
+"Delete person index" = "Slette person";
+
+/* PersonsOverView */
+"Delete this person" = "Slett denne personen";
+
+/* UserOverView */
+"Delete this user" = "Slett denne brukeren";
+
+/* UserDeleteView */
+"Delete user 2" = "Slette bruker";
+
+/* UserOverView */
+"Delete User?" = "Slette bruker?";
+
+/* UserDeleteView */
+"deleted" = "slettet";
+
+/* UserMaintenanceView
+   UserView */
+"Do you want to update this user?" = "Ønsker du å oppdatere denne brukeren?";
+
+/* No comment provided by engineer. */
+"E-Mail" = "e-post";
+
+/* PersonNewView
+   PersonView */
+"eMail" = "e-post";
+
+/* SettingView */
+"Email" = "e-post";
+
+/* SettingView */
+"EMAIL" = "E-POST";
+
+/* SignInView
+   SignUpView
+   UserDeleteView
+   UserDetailOverView
+   UserMaintenanceView
+   UserView */
+"eMail address" = "e-post";
+
+/* SettingView */
+"Email option" = "e-post alternativ";
+
+/* PersonNewView
+   PersonView */
+"Enter city" = "Legg inn by.";
+
+/* NewPersonView
+   PersonNewView */
+"Enter municipality" = "   Kommune.";
+
+/* PersonNewView */
+"Enter Municipality number" = "Kommunenr.";
+
+/* NewPersonView */
+"Enter number" = "Legg inn antall";
+
+/* PersonNewView
+   v */
+"Enter your address" = "Skriv inn adressen";
+
+/* PersonNewView
+   PersonView
+   SignInView
+   SignUpView
+   UserMaintenanceView
+   UserView */
+"Enter your email address" = "Skriv inn email adressen";
+
+/* PersonNewView
+   PersonView */
+"Enter your first name" = "Skriv inn fornavn";
+
+/* PersonNewView
+   PersonView */
+"Enter your last name" = "Skriv inn etternavn";
+
+/* SignUpView
+   UserMaintenanceView
+   UserView */
+"Enter your name" = "Skriv inn navn";
+
+/* SignInView
+   SignUpView
+   UserMaintenanceView
+   UserView */
+"Enter your password" = "Skriv inn passord";
+
+/* InputTextField
+   PersonNewView
+   PersonView */
+"Enter your phone number" = "Skriv inn telefonnummer";
+
+/* SettingView */
+"Er du sikker på at du vil lagre postmumrene?" = "Er du sikker på at du vil lagre postnumrene?";
+
+/* SettingView */
+"Er du sikker på at du vil slette postnummer?" = "Er du sikker på at du vil slette postnummer?";
+
+/* parseJson
+   parseUserJson */
+"Error trying parse json" = "Feil ved prøve å analysere json.";
+
+/* savePersonToJasonFile */
+"Finished backup of all persons to the Json file." = "Ferdig med backup av alle personene til Json-filen.";
+
+/* saveUsertToJasonFile */
+"Finished backup of all users to the Json file." = "Ferdig med backup av alle brukerne til Json-filen.";
+
+/* No comment provided by engineer. */
+"FIREBASE PERSONS AND CLOUDKIT (DEPRECATED)" = "FIREBASE PERSONS OG CLOUDKIT (UTFASET)";
+
+/* SettingView
+   SwiftReadFireBaseSaveJson */
+"Firebase save Persons" = "Firebase oppdatere personer";
+
+/* JsonFirebaseOptionSetting
+   savePersonsCloudKit
+   SettingView */
+"Firebase save Persons option" = "Firebase personer alternativ";
+
+/* PersonDeleteView
+   PersonNewView
+   PersonView */
+"First name" = "Fornavn";
+
+/* PersonNewView
+   PersonView */
+"First name and last name must both contain a value." = "Fornavn og etternavn må begge inneholde en verdi.";
+
+/* PersonNewView
+   PersonView */
+"Gender" = "Kjønn";
+
+/* UserOverView */
+"If you delete this user, if not available anymore." = "Hvis du sletter denne brukeren, er den ikke tilgjengelig lenger.";
+
+/* UserMaintenanceView
+   UserView */
+"If you do that, the user will now contain the new values." = "Hvis du gjør dette, vil brukeren deretter få de nye verdiene.";
+
+/* JsonFirebaseOptionSetting */
+"JSON FIREBASE SAVE TO CLOUDKIT" = "JSON FIREBASE LAGRE I CLOUDKIT";
+
+/* SettingView */
+"Lagre postnummer" = "Lagre postnummer";
+
+/* SettingView */
+"Lagre Postnummer" = "Lagre Postnummer";
+
+/* PersonDeleteView
+   PersonNewView
+   PersonView */
+"Last name" = "Etternavn";
+
+/* PersonNewView
+   PersonView */
+"Legg inn postnummer" = "Legg inn postnummer";
+
+/* PersonNewView
+   PersonView */
+"Man" = "Mann";
+
+/* SettingView */
+"Message" = "Melding";
+
+/* SettingView */
+"MESSAGE" = "MELDING";
+
+/* SettingView */
+"Message option" = "Melding alternativ";
+
+/* UserDeleteView
+   UserMaintenanceView
+   UserView */
+"Missing parameters" = "Manglende parametre";
+
+/* ShowPersons */
+"Missing personal email" = "E-post adresse er ikke lagt inn.";
+
+/* PersonBirthdayView
+   ShowPersons */
+"Missing phonenumber" = "Telefonnummer er ikke lagt inn.";
+
+/* PersonNewView
+   PersonView */
+"Modify" = "Oppdater";
+
+/* NewPersonView
+   PersonNewView */
+"Municipality" = "Kommune";
+
+/* NewPersonView
+   PersonNewView */
+"Municipality number" = "Kommune nr";
+
+/* SignUpView */
+"Name, eMail or Password must all contain a value." = "Navn, e-post og passord må alle ha verdier.";
+
+/* PersonNewView */
+"New person" = "Ny person";
+
+/* SignInView
+   UserOverViewIndexed */
+"New user" = "Ny bruker";
+
+/* SettingView */
+"No" = "Nei";
+
+/* SignInView */
+"No Internet connection for this " = "Ingen internett-forbindelse for denne ";
+
+/* SignInView */
+"Options Menu" = "Meny";
+
+/* SettingView
+   SignInView
+   SignUpView
+   UserDeleteView
+   UserDetailOverView
+   UserMaintenanceView
+   UserView */
+"Password" = "Passord";
+
+/* SettingView */
+"PASSWORD" = "PASSORD";
+
+/* SettingView
+   SwiftJsonBackup */
+"Person backup to Json file" = "Person backup til Json fil";
+
+/* SettingView */
+"PERSON BACKUP TO JSON FILE" = "PERSON BACKUP TIL JSON FIL";
+
+/* PersonDeleteView
+   PersonNewView */
+"Person overview" = "Personer";
+
+/* SignInView */
+"PersonBirthday" = "Fødselsdager";
+
+/* No comment provided by engineer. */
+"PERSONS AND CLOUDKIT" = "PERSONER OG CLOUDKIT";
+
+/* PersonsOverView */
+"Persons overview" = "Personer";
+
+/* PersonsOverViewIndexed */
+"Persons Overview" = "Personer";
+
+/* PersonView */
+"PersonX" = "Person vedlikehold";
+
+/* PersonDeleteView
+   PersonNewView
+   PersonView */
+"Phone Number" = "Telefon nummer";
+
+/* PersonPostalCodesViewIndexed */
+"PostalCodeOverview" = "Postnummer oversikt";
+
+/* PersonDeleteView
+   PersonNewView
+   PersonView */
+"Postnummer" = "Postnummer";
+
+/* SettingView */
+"PostNummer" = "PostNummer";
+
+/* SettingView */
+"POSTNUMMER" = "POSTNUMMER";
+
+/* SwiftDeleteAllPersons */
+"Press the 'Delete' button to delete all Persons" = "Trykk på 'Slett' knappen for å slette alle personene";
+
+/* SwiftDeleteAllPersons */
+"Press the 'Delete' button to delete all Users" = "Trykk på 'Slett' knappen for å slette alle brukerne";
+
+/* PersonDeleteView
+   UserDeleteView */
+"Press the 'Delete' key to delete a Person" = "Trykk på 'Slett' knappen for å slette denne personen";
+
+/* SwiftDeleteAllPersons */
+"Press the 'Save' button to save Persons from a Json file" = "Trykk på 'Oppdater' knappen for å oppdatere personer fra en Json fil";
+
+/* UserMaintenanceView */
+"Press the 'Save' button to save the new data for this User" = "Trykk på 'Oppdater' knappen for å oppdatere de nye dataene for denne brukeren";
+
+/* SwiftReadCloudKitSaveCloudKitUser */
+"Press the 'Save' button to save Users from a Json file" = "Trykk på 'Oppdater' knappen for å oppdatere brukere fra en Json fil";
+
+/* SwiftReadFireBaseSaveJson */
+"Press the 'Update' button to update Persons from a Json file" = "Trykk på 'Oppdater' knappen for å oppdatere personer fra en Json fil";
+
+/* PersonNewView
+   PersonView */
+"Profile Image" = "Profilbilde";
+
+/* SignInView */
+"Qwerty_PersonsOverview" = "Personer";
+
+/* SettingView */
+"Records deleted:" = "Poster som er slettet:";
+
+/* UserOverView
+   UserOverViewIndexed */
+"Refresh" = "Frisk opp";
+
+/* PersonNewView
+   UserMaintenanceView
+   UserView */
+"Save" = "Lagre";
+
+/* SearchBar */
+"Search..." = "Søk...";
+
+/* No comment provided by engineer. */
+"Send a message" = "Send en melding";
+
+/* SendMailView */
+"Send an Email" = "Send en e-post";
+
+/* NewPersonView
+   SendMailView */
+"Send Email" = "Send e-post";
+
+/* NewPersonView */
+"Send message" = "Send melding";
+
+/* SignInView */
+"Settings" = "Innstillinger";
+
+/* PersonSendEmailView */
+"Show mail view" = "Send e-post";
+
+/* PersonSendMessageView */
+"Show message view" = "Vis meldingsvisning";
+
+/* SettingView */
+"Show password" = "Vis passord";
+
+/* SignInView */
+"Sign In" = "Logg inn";
+
+/* SignInView */
+"Sign in CloudKit" = "Innlogging";
+
+/* PersonBirthdayView
+   SettingView
+   ToDoView */
+"SignInView" = "Innlogging";
+
+/* SettingView */
+"Slett postnummer" = "Slett postnummer";
+
+/* SettingView */
+"Slett postnummer (100 om gangen)" = "Slett postnummer (100 om gangen)";
+
+/* PersonDeleteView
+   PersonsOverView */
+"Successfully deleted a person" = "En person ble slettet.";
+
+/* UserDeleteView
+   UserOverView */
+"Successfully deleted an user" = "Brukeren ble slettet.";
+
+/* UserMaintenanceView
+   UserView */
+"Successfully modified this user" = "Denne brukeren ble oppdatert.";
+
+/* SwiftReadFireBaseSaveJson */
+"The Person table contains data. You must first delete all persons from the Person table." = "Person tabellen inneholder data. Du må først slette alle personene i Person tabellen.";
+
+/* savePersonToJasonFile */
+"The Person table in CloudKit is empty." = "Person tabellen i CloudKit er tom.";
+
+/* SwiftReadCloudKitSaveCloudKitUser */
+"The User table contains data. You must first delete all users from the User table." = "Bruker tabellen inneholder data. Du må først slette alle brukerne i Bruker tabellen.";
+
+/* saveUsertToJasonFile */
+"The User table in CloudKit is empty." = "Bruker tabellen i CloudKit er tom.";
+
+/* CloudKitUser */
+"This email and password doesn't belong to a registered user" = "Denne e-postadressen og passordet tilhører ikke en registrert bruker.";
+
+/* SignUpView */
+"This email and this password already exists on an other user." = "Denne e-postadressen og dette passordet eksisterer allerede hos en annen bruker.";
+
+/* SignInView */
+"This request requires an authenticated account" = "Denne forespørselen krever en godkjent konto.";
+
+/* SwiftDeleteAllPersons */
+"to be able to delete all Persons in CloudKit." = "for å kunne slette alle personene i CloudKit.";
+
+/* SwiftDeleteAllUsers */
+"to be able to delete all Users in CloudKit." = "for å kunne slette alle brukerne i CloudKit.";
+
+/* SwiftReadCloudKitSaveCloudKitPerson */
+"to be able to save all Persons in CloudKit." = "for å kunne lagre alle personene i CloudKit.";
+
+/* SwiftReadCloudKitSaveCloudKitUser */
+"to be able to save all Users in CloudKit." = "for å kunne lagre alle brukerne i CloudKit.";
+
+/* SignInView */
+"To do" = "Oppgaver";
+
+/* toDo */
+"toDo" = "Oppgaver";
+
+/* parseJson
+   parseUserJson */
+"Unknown json file" = "Ukjent json-fil.";
+
+/* SwiftDeleteAllPersons
+   SwiftReadCloudKitSaveCloudKitUser
+   SwiftReadFireBaseSaveJson */
+"Update" = "Oppdater";
+
+/* UserMaintenanceView
+   UserView */
+"Update this user" = "Oppdater denne brukeren";
+
+/* UserDeleteView */
+"User" = "Bruker";
+
+/* No comment provided by engineer. */
+"USER AND CLOUDKIT" = "BRUKERE OG CLOUDKIT";
+
+/* SwiftJsonUserBackup */
+"User backup til Json fil" = "Bruker backup til Json fil";
+
+/* SettingView */
+"User backup to Json file" = "Bruker backup til Json fil";
+
+/* SettingView */
+"USER BACKUP TO JSON FILE" = "BRUKER BACKUP TIL JSON FIL";
+
+/* PersonView */
+"User detail View" = "Bruker detaljer";
+
+/* UserMaintenanceView */
+"User maintenance" = "Bruker";
+
+/* UserOverView
+   UserOverViewIndexed */
+"UserOverView" = "Brukere";
+
+/* NewPersonView
+   UserDeleteView */
+"Users" = "Brukere";
+
+/* No comment provided by engineer. */
+"Velg postnummer" = "Velg postnummer";
+
+/* SettingView */
+"Velg å slette eller oppdatere postnummer" = "Velg å slette eller oppdatere postnummer";
+
+/* PersonNewView
+   PersonView */
+"was modified" = "ble oppdatert";
+
+/* PersonNewView */
+"was saved" = "ble lagret";
+
+/* PersonNewView
+   PersonView */
+"Woman" = "Kvinne";
+
+/* SettingView */
+"Yes" = "Ja";
+
+/* JsonFirebaseOptionSetting
+   JsonPersonOptionSetting
+   JsonUserOptionSetting
+   savePersonsCloudKit
+   SwiftDeleteAllPersons
+   SwiftDeleteAllUsers
+   SwiftReadCloudKitSaveCloudKitPerson
+   SwiftReadCloudKitSaveCloudKitUser */
+"You must activate the " = "Du må aktivere ";
+
+/* SettingView */
+"You must activate the email in order to send an email" = "Du må aktivere e-postmeldingen for å kunne sende en e-post.";
+
+/* SettingView */
+"You must activate the message in order to send a message" = "Du må aktivere meldingen for å kunne sende en melding.";
+
+/* SendSMSView */
+"You must activate the sending of a message." = "Du må aktivere sending av en melding.";
+
+/* SendMailView */
+"You must activate the sending of an email." = "Du må aktivere sending av en e-post.";
+
+/* FindPostNummerNewPerson */
+"You must enter a city" = "Du må legge inn en by.";
+
+/* SignInView
+   SignUpiew
+   UserDeleteView
+   UserMaintenanceView
+   UserView */
+"Your name" = "Navn";
+
+/* SwiftDeleteAllPersons */
+"AAre you sure you want to delete all users?" = "Dersom du sletter alle brukerne, vil de ikke lenger være tilgjengelige.";
+

@@ -1,0 +1,20 @@
+[
+    {
+        "id": "8A1A443A-EB6E-4C9A-B836-89ABA9E8647A" ,
+        "userData" : {
+            "name" : "Bjarne Broremann Berntsen",
+            "email" : "bjarne.berntsen@lyse.net",
+            "password" : "bjarne berntsen",
+            "image" : "<UIImage:0x283ed2f40 anonymous {473, 613}>"
+        }
+    },
+    {
+        "id": "A03C43E5-D255-484A-B330-9825D080576B" ,
+        "userData" : {
+            "name" : "Jan Hovland",
+            "email" : "jan.hovland@lyse.net",
+            "password" : "qwerty",
+            "image" : "<UIImage:0x283ed2d90 anonymous {80, 80}>"
+        }
+    }
+]
